@@ -1,0 +1,22 @@
+
+> lesson 25
+In JPMS, a driver may be advertised as a service using a directive in the module declaration of this form
+`provides java.sql.Driver with >driver<-class;`
+
+-Djdbc.drivers command line
+
+explicitly loading the class - instantiating, Class.forName("<fqdn>")
+
+Properties can provided thru Properties object as well
+jdbc:derby:/datastore/firstdb;create=true
+jdbc:mysql://localhost:3306/db?user=root&password=123&useSSL=false
+
+use DataSource(interface) instance
+
+>
+The getXXX methods support column numbers or names, Column numbers start at one, not zero
+getXXX methods can also do some type conversions
+They are both AutoClosable
+
+By default, execute statements commit transaction on completion, use setAutoCommit(false) to disable
+In non-autocommit mode, use the methods commit() and rollback() programmatically
