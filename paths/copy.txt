@@ -1,0 +1,2 @@
+This is data.txt
+containing two lines
