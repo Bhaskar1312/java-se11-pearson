@@ -10,5 +10,6 @@ Module 8
   Lesson - 28 nio
 Module 9
   Lesson - 29 annotations
-
+  Lesson - 30 Parsing, formatting and locale
+  Lesson - 31 Mitigate threats
   
