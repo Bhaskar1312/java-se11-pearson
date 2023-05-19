@@ -12,4 +12,5 @@ Module 9
   Lesson - 29 annotations
   Lesson - 30 Parsing, formatting and locale
   Lesson - 31 Mitigate threats
+  Lesson - 32 Secure resource access
   
